@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        mainbg: "#03001C",
+      },
+    },
+    fontFamily: {
+      manrope: ["Manrope", "Arial", "sans-serif"],
+    },
   },
   plugins: [],
-}
+};

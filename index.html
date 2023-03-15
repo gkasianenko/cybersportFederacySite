@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <link href="/output.css" rel="stylesheet">
 </head>
 
@@ -57,6 +61,41 @@
         <img class="absolute top-[-60px] left-[50%] translate-x-[-50%] z-[-1]" src="assets/dragon.svg">
 
     </section>
-    
+    <section>
+        <div class="container mx-auto">
+            <div class="flex items-center">
+                <div class="space-y-5"><h2 class="text-[40px] leading-tight text-spgrotesk font-bold text-transparent bg-clip-text  bg-gradient-to-r from-[#C736DF] to-[#0D6BF9]">Миссия проекта — обеспечить качественным оборудованием для киберспорта как можно больше учебных заведений</h2>
+                <p class="text-[20px]">Краткий рассказ о компетенциях организаторов</p></div>
+                <img src="./assets/joystick.svg">
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+        <div class="container mx-auto">
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide bg-gradient-radial">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
 </html>

@@ -8,8 +8,20 @@ body {
 }
 
 body {
+}
+
+.site {
   display: flex;
   flex-direction: column;
+  height: 100%;
+}
+
+@media (max-width: 640px) {
+  .site {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+  }
 }
 
 .content {
